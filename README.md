@@ -22,7 +22,7 @@ Detecting the sidewalk in a point cloud
 - Run catkin_make from the catkin_ws directory.
 - Run roscore in a separate terminal.
 - Enter the command rosrun pkg_name sidewalk_detect. The node will now wait for the topic /camera/depth/points. 
-- To visualize the point cloud use rvix (Enter "rosrun rviz rviz" in a separate terminal).
+- To visualize the point cloud use rviz (Enter "rosrun rviz rviz" in a separate terminal).
 - Play rosbag file containing the topic /camera/depth/points (rosbag play -l bag_name.bag) in a separate terminal.
 - In the rviz window, set Global Options -> Fixed frame -> camera_depth_optical_frame ,Global Options -> Background color -> 0;0;0, Global Options -> Frame rate -> 30 ,Grid -> plane -> XY.
 - Add PointCloud2 display and set topic to /camera/depth/points_in or /camera/depth/points_out to view the sidewalk and non-sidewalk parts of the pointcloud respectively.
