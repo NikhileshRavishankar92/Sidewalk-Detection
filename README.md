@@ -1,2 +1,2 @@
 # Sidewalk-Detection
-Algorithm to detect sidewalk region in an image
+Algorithm to detect the sidewalk region in an image.
